@@ -25,3 +25,83 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* Solution */
+/* 
+body {
+  text-align: center;
+} */
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  /* color: grey; */
+}
+
+
+
+
+.content {
+  /* missed flex, idk why i need it */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* Missed padding, added footer */
+  padding: 16px;
+  
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.header ul {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 1em; */
+}
+
+.footer {
+  /* flex: 1 1 auto; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  background-color: #eeeeee;
+  /* flex-grow: 0; */
+  /* margin-top: auto; */
+}
+
+.footer ul {
+  /* display: flex; */
+  /* gap: 1em; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+}
+
+button {
+  /* padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px; */
+
+  padding: 8px 16px;
+}
